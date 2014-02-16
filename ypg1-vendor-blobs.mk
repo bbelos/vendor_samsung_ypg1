@@ -65,4 +65,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ypg1/proprietary/etc/gps.xml:system/vendor/etc/gps.xml \
 	vendor/samsung/ypg1/proprietary/bin/Certification.cer:system/vendor/bin/Certification.cer \
     vendor/samsung/ypg1/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/samsung/ypg1/proprietary/lib/hw/gps.s5pc110.so:system/lib/hw/gps.s5pc110.so
+    vendor/samsung/ypg1/proprietary/lib/hw/gps.s5pc110.so:system/vendor/lib/hw/gps.s5pc110.so
