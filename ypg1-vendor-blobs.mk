@@ -47,9 +47,9 @@ PRODUCT_COPY_FILES += \
 # Sensors, Lights etc
 #
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ypg1/proprietary/bin/geomagneticd:system/bin/geomagneticd \
-    vendor/samsung/ypg1/proprietary/bin/orientationd:system/bin/orientationd \
-    vendor/samsung/ypg1/proprietary/lib/libsensor_yamaha_test.so:system/lib/libsensor_yamaha_test.so
+    vendor/samsung/ypg1/proprietary/bin/geomagneticd:system/vendor/bin/geomagneticd \
+    vendor/samsung/ypg1/proprietary/bin/orientationd:system/vendor/bin/orientationd \
+    vendor/samsung/ypg1/proprietary/lib/libsensor_yamaha_test.so:system/vendor/lib/libsensor_yamaha_test.so
 
 #
 # Bluetooth
